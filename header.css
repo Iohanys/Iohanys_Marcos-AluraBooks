@@ -1,17 +1,17 @@
 .cabeçalho__menu-hamburguer {
    width: 24px;
    height: 24px;
-   backgroud-image: url("../img/menu.svg");
+   background-image: url("../img/menu.svg");
    background-repeat: no-repeat;
    background-position: center;
-   displey: inline-block;
+   display: inline-block;
 }
 
 .cabeçalho {
    background-color: var(--branco);
    display: flex;
    justify-content: space-between;
-   align-itens: center;
+   align-items: center;
    position: relative;
 }
 
@@ -43,7 +43,7 @@
 
 .lista-menu__titulo {
    color: var(--laranja);
-   fonte-weight: 700;
+   font-weight: 700;
 }
 
 .lista-menu__link {
